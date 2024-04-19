@@ -1,0 +1,69 @@
+[       
+    {
+    "titre": "Fullstack Development",
+    "sousSections": [
+        {
+            "sousTitre": "Introduction",
+            "contenu": "Présentation de l'agent IA le développement WEV."
+        },
+        {
+            "sousTitre": "FullStack",
+            "contenuMarkdown": "md/cours-fullstack.md"
+        }
+    ]
+    },
+    {
+        "titre": "DevOps",
+        "sousSections": [
+            {
+                "sousTitre": "Introduction au DevOps",
+                "contenuMarkdown": "md/cours-devops.md"
+            },
+            {
+                "sousTitre": "Déploiement et Maintenance",
+                "contenu": "Bonnes pratiques pour le déploiement et la maintenance des applications web."
+            }
+        ]
+    },
+
+    {
+        "titre": "IA",
+        "sousSections": [
+            {
+                "sousTitre": "Introduction à l'IA",
+                "contenu": "Présentation de l'agent IA Codex GPT pour le développement fullstack."
+            },            {
+                "sousTitre": "Développement Assisté par IA",
+                "contenu": "Comment NeoFS peut aider dans la génération de code front-end et back-end."
+            },
+            {
+                "sousTitre": "IA prompt",
+                "contenuMarkdown": "md/cours-ia-prompt.md"
+            },
+            {
+                "sousTitre": "lib GPT",
+                "contenuMarkdown": "md/cours-ia-gpt.md"
+            },
+            {
+                "sousTitre": "lib pytorch",
+                "contenuMarkdown": "md/cours-ia-pytorch.md"
+            },
+            {
+                "sousTitre": "lib Tensorflow",
+                "contenuMarkdown": "md/cours-ia-tensorflow.md"
+            }
+
+
+        ]
+    },    
+    {
+        "titre": "Modèle",
+        "sousSections": [
+        {
+        "contenu": "techniques et methodes avancées pour construire des modèles d'IA...",
+        "contenuMarkdown": "md/howto.md"
+    }]
+    } 
+
+   
+]

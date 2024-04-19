@@ -1,0 +1,61 @@
+[       
+    {
+    "titre": "Fullstack Development",
+    "sousSections": [
+        {
+            "sousTitre": "Introduction",
+            "contenu": "Présentation de l'agent IA le développement WEV."
+        },
+        {
+            "sousTitre": "FullStack",
+            "contenuMarkdown": "md/cours-fullstack.md"
+        }
+    ]
+    },
+    {
+        "titre": "DevOps",
+        "sousSections": [
+            {
+                "sousTitre": "Introduction au DevOps",
+                "contenuMarkdown": "md/cours-devops.md"
+            },
+            {
+                "sousTitre": "Déploiement et Maintenance",
+                "contenu": "Bonnes pratiques pour le déploiement et la maintenance des applications web."
+            }
+        ]
+    },
+    {
+        "titre": "Front-End",
+        "sousSections": [
+            {
+                "sousTitre": "HTML",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            },
+            {
+                "sousTitre": "CSS",
+                "contenuMarkdown": "md/cours-frontend-css.md"
+            },
+            {
+                "sousTitre": "SASS",
+                "contenuMarkdown": "md/cours-frontend-sass.md"
+            },
+            {
+                "sousTitre": "ASCII Art en Web Design",
+                "contenuMarkdown": "md/cours-frontend-ascii.md"
+            },
+            {
+                "sousTitre": "SVG en Tensors",
+                "contenuMarkdown": "md/cours-frontend-svg.md"
+            },
+            {
+                "sousTitre": "JavaScript",
+                "contenuMarkdown": "md/cours-frontend-javascript.md"
+            },
+            {
+                "sousTitre": "React",
+                "contenuMarkdown": "md/cours-frontend-react.md"
+            }
+        ]
+    }
+]

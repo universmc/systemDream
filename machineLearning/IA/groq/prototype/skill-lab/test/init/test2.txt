@@ -1,0 +1,61 @@
+const fs = require("fs");
+const Groq = require("groq-sdk");
+const groq = new Groq();
+
+async function main(
+) {
+    // Initialisation du système et rôle
+let systemRole = "system";
+
+    // Initialisation du rôle utilisateur et de l'assistant
+let userRole = "user";
+    let assistantRole = "assistant";
+
+    // Début de la conversation
+let conversationEnded = false;
+
+    // Création de l'historique de messages
+let messageHistory = [];
+
+    // Fonction pour générer une réponse de l'assistant
+async function generateAssistantResponse(userInput) {
+        // ...
+return {
+            role: assistantRole,
+            content: assistantResponse
+        };
+    }
+
+    // Fonction pour générer une réponse de l'utilisateur
+async function generateUserResponse(assistantInput) {
+        // ...
+return {
+            role: userRole,
+            content: userResponse
+        };
+    }
+
+    // Boucle de dialogue entre utilisateur et assistant
+while (!conversationEnded) {
+        // Générer la réponse de l'utilisateur
+const userInput = await generateUserResponse();
+        messageHistory.push(userInput);
+
+        // Générer la réponse de l'assistant
+const assistantInput = await generateAssistantResponse(userInput);
+        messageHistory.push(assistantInput);
+
+        // Vérifier si la conversation doit continuer
+        if (userInput.content.toLowerCase() === "stop" || assistantInput.content.toLowerCase() === "goodbye") {
+            conversationEnded = true;
+        }
+    // Enregistrer le script généré
+    
+const generatedScript = /* code généré à partir de l'historique des messages */;
+
+    const outputFilePath = "output/script_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".js";
+    fs.writeFileSync(outputFilePath, generatedScript);
+    console.log("Script généré et enregistré dans " + outputFilePath);
+}
+
+main();

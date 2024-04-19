@@ -1,0 +1,29 @@
+[       
+    {
+    "titre": "Fullstack Devops",
+    "sousSections": [
+        {
+            "sousTitre": "Introduction",
+            "contenu": "Présentation de l'agent IA le développement WEV."
+        },
+        {
+            "sousTitre": "FullStack",
+            "contenuMarkdown": "docs/cours-fullstack.md"
+        }
+    ]
+    },
+    {
+        "titre": "Frontend ",
+        "sousSections": [
+
+            {
+                "sousTitre": "sass",
+                "contenu": "Bonnes pratiques pour la programmation en HTML et la maintenance des applications web."
+            },
+            {
+                "sousTitre": "Introduction au sass",
+                "contenuMarkdown": "docs/cours-frontend-sass.md"
+            }
+        ]
+    }
+]

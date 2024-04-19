@@ -1,0 +1,58 @@
+[       
+    {
+    "titre": "Fullstack Development",
+    "sousSections": [
+        {
+            "sousTitre": "Introduction",
+            "contenu": "Présentation de l'agent IA le développement WEV."
+        },
+        {
+            "sousTitre": "FullStack",
+            "contenuMarkdown": "md/cours-fullstack.md"
+        }
+    ]
+    },
+    {
+        "titre": "DevOps",
+        "sousSections": [
+            {
+                "sousTitre": "Introduction au DevOps",
+                "contenuMarkdown": "md/cours-devops.md"
+            },
+            {
+                "sousTitre": "Déploiement et Maintenance",
+                "contenu": "Bonnes pratiques pour le déploiement et la maintenance des applications web."
+            }
+        ]
+    },
+
+    {
+        "titre": "Back-End",
+        "sousSections": [
+            {
+                "sousTitre": "PHP",
+                "contenuMarkdown": "md/cours-backend-php.md"
+            },
+            {
+                "sousTitre": "SQL",
+                "contenuMarkdown": "md/cours-backend-sql.md"
+            },
+            {
+                "sousTitre": "nodejs",
+                "contenuMarkdown": "md/cours-backend-sql.md"
+            },
+            {
+                "sousTitre": "Python",
+                "contenu": "Scripting, analyse de données et intégration avec des frameworks web."
+            },
+            {
+                "sousTitre": "Node.js et Swagger",
+                "contenuMarkdown": "md/swagger.md"
+            },
+            {
+                "sousTitre": "JSON",
+                "contenuMarkdown": "md/cours-backend-json.md"
+            }
+        ]
+    }
+]
